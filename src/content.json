@@ -1,0 +1,511 @@
+{
+  "version": 1,
+  "site": {
+    "id": "move-day-broll",
+    "title": "搬家日：把家搬走以前",
+    "episode": "B-roll 分鏡討論 · 第一版",
+    "subtitle": "忙亂中帶著溫暖。先搬走家具，最後才搬走記憶。",
+    "format": "timeline",
+    "disclosure": "虛構短片分鏡 · 人物、場景與對話皆為 AI 創作；五位角色皆為虛構成人。",
+    "accent": "#a35b3d"
+  },
+  "rules": {
+    "mediaCount": 12,
+    "maxMediaPerUnit": 1,
+    "maxRepliesPerUnit": 2,
+    "maxReplyDepth": 2,
+    "requireHighAnchor": false
+  },
+  "people": [
+    {
+      "id": "director-aze",
+      "name": "阿澤",
+      "handle": "@aze.directs",
+      "role": "導演",
+      "avatar": {
+        "glyph": "導",
+        "background": "linear-gradient(145deg, #f1d6c5, #ba7555)",
+        "color": "#4e2415"
+      }
+    },
+    {
+      "id": "camera-he",
+      "name": "小何",
+      "handle": "@he.sees",
+      "role": "攝影",
+      "avatar": {
+        "glyph": "攝",
+        "background": "linear-gradient(145deg, #d8e6ed, #7e9fad)",
+        "color": "#203d4b"
+      }
+    },
+    {
+      "id": "editor-yu",
+      "name": "小余",
+      "handle": "@yu.cuts",
+      "role": "剪輯",
+      "avatar": {
+        "glyph": "剪",
+        "background": "linear-gradient(145deg, #e5e0f3, #998bbd)",
+        "color": "#3c3159"
+      }
+    },
+    {
+      "id": "grandma",
+      "name": "阿媽",
+      "handle": "@oldhouse.window",
+      "role": "搬家主角",
+      "avatar": {
+        "glyph": "媽",
+        "background": "linear-gradient(145deg, #f0e2d2, #c49b77)",
+        "color": "#55351e"
+      }
+    },
+    {
+      "id": "granddaughter",
+      "name": "小晴",
+      "handle": "@qing.draws",
+      "role": "孫女",
+      "avatar": {
+        "glyph": "晴",
+        "background": "linear-gradient(145deg, #e6e9c9, #a7af69)",
+        "color": "#394015"
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "shot-01-wrapping-bowls",
+      "authorId": "camera-he",
+      "label": "00:00–00:07",
+      "startSec": 0,
+      "body": "清晨的舊家還沒有正式開始搬。阿媽用舊報紙包一只缺角的碗，孫女在後方封箱；先讓觀眾看見，這不是清空房子，是把日子一件件包起來。",
+      "prompt": "請保留碗緣、報紙、灰塵和兩人的前後景關係，讓畫面先安靜下來。",
+      "media": [
+        {
+          "id": "media-01-old-home-bowls",
+          "src": "photos/01-old-home-bowls.webp",
+          "alt": "阿媽在舊家用報紙包起一只缺角的碗，孫女在後方封裝紙箱，晨光照出空氣中的灰塵。",
+          "width": 1672,
+          "height": 941,
+          "caption": "先拍手，不急著拍搬家。",
+          "visualTags": ["old-home", "morning-light", "hands", "quiet"]
+        }
+      ],
+      "verdicts": [
+        {
+          "id": "verdict-01-camera",
+          "authorId": "camera-he",
+          "body": "阿媽放在前景，孫女在後景封箱，兩個動作一前一後，畫面就有了時間感。不要把灰塵修得太乾淨，它是這個家的呼吸。"
+        }
+      ],
+      "replies": [
+        {
+          "id": "reply-01-editor",
+          "authorId": "editor-yu",
+          "body": "剪接上會讓碗落桌的聲音先進來，再接下一鏡的腳步。"
+        }
+      ],
+      "metrics": { "likes": 18, "replies": 1, "reposts": 2 }
+    },
+    {
+      "id": "shot-02-stairwell-chain",
+      "authorId": "director-aze",
+      "label": "00:08–00:14",
+      "startSec": 8,
+      "body": "三個男生在樓梯間排成一列接力傳箱，感應燈比他們更早熄滅，只好跺腳讓它重新亮起。這是第一個把忙亂拉進來的鏡頭。",
+      "prompt": "不要拍成英雄式搬運，要有鞋子、手臂和箱子彼此卡住的節奏。",
+      "media": [
+        {
+          "id": "media-02-stairwell-chain",
+          "src": "photos/02-stairwell-chain.webp",
+          "alt": "三位搬家男生在狹窄樓梯間接力傳遞紙箱，孫女與阿媽在下方等待。",
+          "width": 941,
+          "height": 1672,
+          "caption": "人比樓梯窄一點，默契要寬一點。",
+          "visualTags": ["stairwell", "vertical", "teamwork", "motion"]
+        }
+      ],
+      "verdicts": [
+        {
+          "id": "verdict-02-director",
+          "authorId": "director-aze",
+          "body": "直幅保留樓梯的壓迫感。三個人不是三個主角，是一個搬運動作被拆成三段。"
+        },
+        {
+          "id": "verdict-02-editor",
+          "authorId": "editor-yu",
+          "body": "這裡剪快一點，但不要快到看不出箱子是怎麼交到下一雙手。"
+        }
+      ],
+      "replies": [
+        {
+          "id": "reply-02-camera",
+          "authorId": "camera-he",
+          "body": "我想留一個感應燈暗掉的半秒，讓他們跺腳的笑點自己出現。"
+        }
+      ],
+      "metrics": { "likes": 23, "replies": 1, "reposts": 3 }
+    },
+    {
+      "id": "shot-03-mattress-doorway",
+      "authorId": "camera-he",
+      "label": "00:15–00:22",
+      "startSec": 15,
+      "body": "床墊卡在狹窄門框，三個人左轉右轉講了半天，床墊仍停在原地。阿媽在旁邊看一眼，沒有加入，只把門再推開一點。",
+      "prompt": "幽默要來自大家太認真，不要讓任何人跌倒或受傷。",
+      "media": [
+        {
+          "id": "media-03-mattress-doorway",
+          "src": "photos/03-mattress-doorway.webp",
+          "alt": "三位男生在舊家門框前合力轉動卡住的床墊，阿媽在後方觀察。",
+          "width": 1672,
+          "height": 941,
+          "caption": "左邊不是左邊，右邊也還沒到。",
+          "visualTags": ["doorway", "mattress", "comedy", "narrow-space"]
+        }
+      ],
+      "verdicts": [
+        {
+          "id": "verdict-03-director",
+          "authorId": "director-aze",
+          "body": "不要插入解釋他們在吵什麼。三個指向不同方向的手勢已經比台詞好笑。"
+        }
+      ],
+      "replies": [
+        {
+          "id": "reply-03-grandma",
+          "authorId": "grandma",
+          "body": "我其實只把門推開，沒有教他們。"
+        },
+        {
+          "id": "reply-03-editor",
+          "authorId": "editor-yu",
+          "body": "這句要留，放在他們第三次說「再來一次」之後。"
+        }
+      ],
+      "metrics": { "likes": 29, "replies": 2, "reposts": 5 }
+    },
+    {
+      "id": "shot-04-box-break",
+      "authorId": "editor-yu",
+      "label": "00:23–00:29",
+      "startSec": 23,
+      "body": "紙箱底部突然裂開，書本散到地上，三個人的手同時伸過去托住。這個鏡頭讓忙亂第一次變成互相照應。",
+      "prompt": "箱子破，但物品不要真的摔壞；拍手掌、紙纖維和同時靠近的身體。",
+      "media": [
+        {
+          "id": "media-04-box-break",
+          "src": "photos/04-box-break.webp",
+          "alt": "紙箱底部裂開，三位男生同時伸手托住散落的書本，阿媽和孫女在後方。",
+          "width": 1678,
+          "height": 937,
+          "caption": "箱子先投降，人沒有。",
+          "visualTags": ["cardboard", "hands", "near-miss", "warm-chaos"]
+        }
+      ],
+      "verdicts": [
+        {
+          "id": "verdict-04-editor",
+          "authorId": "editor-yu",
+          "body": "這一鏡不用配樂，讓紙箱裂開的聲音和大家吸氣的聲音自己完成轉折。"
+        }
+      ],
+      "replies": [
+        {
+          "id": "reply-04-director",
+          "authorId": "director-aze",
+          "body": "孫女的表情要留在最後，不要只剪手。她第一次看見三個大人一起緊張。"
+        }
+      ],
+      "metrics": { "likes": 21, "replies": 1, "reposts": 2 }
+    },
+    {
+      "id": "shot-05-box-drawing",
+      "authorId": "granddaughter",
+      "label": "00:30–00:37",
+      "startSec": 30,
+      "body": "孫女蹲在紙箱上畫三個搬家男生的簡筆畫，用顏色分類，不寫房間名稱。她替混亂建立自己的秩序。",
+      "prompt": "畫要像小孩真的畫出來的，不要變成完美插畫；三個男生在背景持續搬運。",
+      "media": [
+        {
+          "id": "media-05-box-drawing",
+          "src": "photos/05-box-drawing.webp",
+          "alt": "孫女蹲在地上替紙箱畫彩色小房子，阿媽坐在沙發旁，三位男生在後方搬箱。",
+          "width": 1672,
+          "height": 941,
+          "caption": "她畫的不是分類，是新家的想像。",
+          "visualTags": ["childlike-drawing", "boxes", "family", "playful"]
+        }
+      ],
+      "verdicts": [
+        {
+          "id": "verdict-05-director",
+          "authorId": "director-aze",
+          "body": "這張的重心在紙箱上的畫，不在人物臉。讓觀眾先看見她怎麼理解三個忙碌的大人。"
+        }
+      ],
+      "replies": [
+        {
+          "id": "reply-05-granddaughter",
+          "authorId": "granddaughter",
+          "body": "黑色那個是最有力氣的，藍色那個一直擦汗。"
+        }
+      ],
+      "metrics": { "likes": 34, "replies": 1, "reposts": 4 }
+    },
+    {
+      "id": "shot-06-old-photo",
+      "authorId": "camera-he",
+      "label": "00:38–00:46",
+      "startSec": 38,
+      "body": "男生拆下牆上的老照片，阿媽伸手接過，孫女從旁邊看著照片裡年輕的阿媽。空出的牆釘留在畫面裡。",
+      "prompt": "不需要看清照片內容，只要看見阿媽接過它時手勢變慢。",
+      "media": [
+        {
+          "id": "media-06-old-photo",
+          "src": "photos/06-old-photo.webp",
+          "alt": "戴眼鏡的搬家男生把舊相框交給阿媽，孫女抱著布料站在一旁。",
+          "width": 1678,
+          "height": 937,
+          "caption": "牆上少了一張照片，手裡多了一段時間。",
+          "visualTags": ["old-photo", "handoff", "memory", "soft-light"]
+        }
+      ],
+      "verdicts": [
+        {
+          "id": "verdict-06-camera",
+          "authorId": "camera-he",
+          "body": "這裡的情緒不是哭，是速度突然慢下來。鏡頭也不要追，讓相框從男生手裡走到阿媽手裡。"
+        },
+        {
+          "id": "verdict-06-editor",
+          "authorId": "editor-yu",
+          "body": "接下一鏡空房間時，保留牆上那個釘子的聲音，會比音樂更像告別。"
+        }
+      ],
+      "replies": [
+        {
+          "id": "reply-06-director",
+          "authorId": "director-aze",
+          "body": "好，照片裡的人不必被觀眾看清楚，阿媽的反應才是照片。"
+        }
+      ],
+      "metrics": { "likes": 37, "replies": 1, "reposts": 6 }
+    },
+    {
+      "id": "shot-07-empty-old-home",
+      "authorId": "director-aze",
+      "label": "00:47–00:55",
+      "startSec": 47,
+      "body": "家具幾乎搬空，窗簾被風吹起，牆上只剩家具留下的淡色輪廓。阿媽摸著門框，孫女站在幾步之外等她。",
+      "prompt": "這是舊家的最後一個大空鏡，畫面要留白，讓觀眾感覺聲音也被搬走了。",
+      "media": [
+        {
+          "id": "media-07-empty-old-home",
+          "src": "photos/07-empty-old-home.webp",
+          "alt": "空蕩的舊房間裡窗簾被風吹起，阿媽站在門框旁，孫女在後方等待。",
+          "width": 1674,
+          "height": 940,
+          "caption": "家具留下輪廓，房子留下回音。",
+          "visualTags": ["empty-room", "curtain", "farewell", "negative-space"]
+        }
+      ],
+      "verdicts": [
+        {
+          "id": "verdict-07-director",
+          "authorId": "director-aze",
+          "body": "這一鏡不要急著讓人走出去。阿媽的手在門框上停多久，決定這場搬家有沒有重量。"
+        }
+      ],
+      "replies": [
+        {
+          "id": "reply-07-granddaughter",
+          "authorId": "granddaughter",
+          "body": "我會先走出去，再回頭牽她。"
+        }
+      ],
+      "metrics": { "likes": 41, "replies": 1, "reposts": 7 }
+    },
+    {
+      "id": "shot-08-tiny-elevator",
+      "authorId": "camera-he",
+      "label": "00:56–01:02",
+      "startSec": 56,
+      "body": "小電梯裡塞滿箱子，三個男生、阿媽和孫女只剩臉能動。電梯鏡面把同一場忙亂再反射一次。",
+      "prompt": "這裡讓觀眾喘口氣，用一個不尷尬的擁擠笑點接回搬運節奏。",
+      "media": [
+        {
+          "id": "media-09-tiny-elevator",
+          "src": "photos/09-tiny-elevator.webp",
+          "alt": "狹小電梯中塞滿紙箱，三位男生和阿媽被箱子包圍，孫女的手扶著電梯門。",
+          "width": 1674,
+          "height": 940,
+          "caption": "電梯只剩一個樓層，大家只剩一點空間。",
+          "visualTags": ["elevator", "claustrophobia", "faces", "comic-relief"]
+        }
+      ],
+      "verdicts": [
+        {
+          "id": "verdict-08-camera",
+          "authorId": "camera-he",
+          "body": "鏡面不是為了炫技，是讓五個人的呼吸都出現在同一個窄畫面。留一點箱子遮住身體，反而更有壓迫感。"
+        }
+      ],
+      "replies": [
+        {
+          "id": "reply-08-editor",
+          "authorId": "editor-yu",
+          "body": "電梯叮一聲後直接切貨車門打開，空間會突然放大。"
+        }
+      ],
+      "metrics": { "likes": 26, "replies": 1, "reposts": 3 }
+    },
+    {
+      "id": "shot-09-truck-loading",
+      "authorId": "editor-yu",
+      "label": "01:03–01:11",
+      "startSec": 63,
+      "body": "貨車後門打開，三個男生重新分配物件：有人在車內排家具，有人在地面遞盆栽和舊椅子。這是全片最有秩序的一次混亂。",
+      "prompt": "讓車廂裡的暗和外面的光形成一道門，家具像記憶一樣一件件被送進去。",
+      "media": [
+        {
+          "id": "media-10-truck-loading",
+          "src": "photos/10-truck-loading.webp",
+          "alt": "搬家貨車後方，三位男生把盆栽與家具送進車廂，車內的人整理空間。",
+          "width": 1672,
+          "height": 941,
+          "caption": "把東西塞進車裡，也把空間重新排一次。",
+          "visualTags": ["moving-truck", "plant", "layered-depth", "handoff"]
+        }
+      ],
+      "verdicts": [
+        {
+          "id": "verdict-09-editor",
+          "authorId": "editor-yu",
+          "body": "這裡可以用幾個短切接成一個長動作：舊椅子、盆栽、最後一箱。每一件東西都讓車廂更暗，也讓家更接近新地址。"
+        }
+      ],
+      "replies": [
+        {
+          "id": "reply-09-director",
+          "authorId": "director-aze",
+          "body": "保留盆栽葉子擦過車門的那一下，聲音會讓這個過場有觸感。"
+        }
+      ],
+      "metrics": { "likes": 24, "replies": 1, "reposts": 3 }
+    },
+    {
+      "id": "shot-10-tea-break",
+      "authorId": "grandma",
+      "label": "01:12–01:21",
+      "startSec": 72,
+      "body": "阿媽端茶和切好的水果出來，三個男生坐在紙箱上擦汗，孫女用硬紙板替她搧風。所有人都累了，卻沒有人真的離開工作。",
+      "prompt": "忙完的休息不要拍成團體照，讓每個人有不同的疲憊姿勢。",
+      "media": [
+        {
+          "id": "media-11-tea-break",
+          "src": "photos/11-tea-break.webp",
+          "alt": "阿媽在紙箱旁端茶給三位疲憊的搬家男生，孫女在旁替她搧風，屋內仍堆滿箱子。",
+          "width": 1672,
+          "height": 941,
+          "caption": "阿媽說休息，手還在照顧每個人。",
+          "visualTags": ["tea", "fruit", "rest", "ensemble"]
+        }
+      ],
+      "verdicts": [
+        {
+          "id": "verdict-10-director",
+          "authorId": "director-aze",
+          "body": "溫暖不是每個人都笑。有人喝茶、有人擦汗、有人還在看箱子有沒有倒；這些差異讓畫面不會變成宣傳照。"
+        }
+      ],
+      "replies": [
+        {
+          "id": "reply-10-grandma",
+          "authorId": "grandma",
+          "body": "水果要先給那個一直說自己不累的人。"
+        },
+        {
+          "id": "reply-10-camera",
+          "authorId": "camera-he",
+          "body": "他會在鏡頭外繼續說不累。"
+        }
+      ],
+      "metrics": { "likes": 46, "replies": 2, "reposts": 8 }
+    },
+    {
+      "id": "shot-11-new-home-drawing",
+      "authorId": "director-aze",
+      "label": "01:22–01:31",
+      "startSec": 82,
+      "body": "到了新家，孫女把自己的畫貼上牆，阿媽的舊椅子靠到窗邊，三個男生在背景組床架。牆還是空的，但已經有人決定第一個位置。",
+      "prompt": "新家不要太整齊，保留箱子和未完成的床架；家的感覺由一張畫開始。",
+      "media": [
+        {
+          "id": "media-12-new-home-drawing",
+          "src": "photos/12-new-home-drawing.webp",
+          "alt": "新家傍晚，孫女把畫貼到牆上，阿媽坐在舊椅子旁，三位男生在背景組裝床架。",
+          "width": 1672,
+          "height": 941,
+          "caption": "第一張畫貼上去，陌生房間開始有方向。",
+          "visualTags": ["new-home", "dusk", "drawing", "beginning"]
+        }
+      ],
+      "verdicts": [
+        {
+          "id": "verdict-11-director",
+          "authorId": "director-aze",
+          "body": "不要把新家拍得像完成品。後面還在組床，前面才剛貼上一張畫；家的成立不是整理完才發生。"
+        },
+        {
+          "id": "verdict-11-editor",
+          "authorId": "editor-yu",
+          "body": "從這裡開始把剪接放慢，讓箱子和人一起進入新的節奏。"
+        }
+      ],
+      "replies": [
+        {
+          "id": "reply-11-granddaughter",
+          "authorId": "granddaughter",
+          "body": "我畫的房子有三扇窗，因為要給三個搬家哥哥看。"
+        }
+      ],
+      "metrics": { "likes": 52, "replies": 1, "reposts": 10 }
+    },
+    {
+      "id": "shot-12-grandma-sleeping",
+      "authorId": "camera-he",
+      "label": "01:32–01:43",
+      "startSec": 92,
+      "body": "夜裡，阿媽在新家的舊椅子上睡著，孫女替她蓋上薄毯。背景裡三個男生還在小聲整理最後幾箱東西，窗台上的盆栽接住一點暖光。",
+      "prompt": "最後一鏡不要用告別台詞；讓新家第一次安靜下來，但仍留下三個男生整理紙箱的細小聲音。",
+      "media": [
+        {
+          "id": "media-13-grandma-sleeping",
+          "src": "photos/13-grandma-sleeping.webp",
+          "alt": "阿媽在新家的舊椅子上睡著，孫女替她蓋上薄毯，三位男生在暖光背景中整理紙箱。",
+          "width": 1672,
+          "height": 941,
+          "caption": "最後搬進來的，是可以放心睡著的安靜。",
+          "visualTags": ["night", "chair", "blanket", "warm-window"]
+        }
+      ],
+      "verdicts": [
+        {
+          "id": "verdict-12-camera",
+          "authorId": "camera-he",
+          "body": "不要推近阿媽的臉。讓孫女的手、椅子的扶手和背景三個仍在工作的人同時存在，這樣溫暖才不是孤單的特寫。"
+        }
+      ],
+      "replies": [
+        {
+          "id": "reply-12-director",
+          "authorId": "director-aze",
+          "body": "收在窗台的盆栽和門縫的光，片名才會有回聲。"
+        }
+      ],
+      "metrics": { "likes": 61, "replies": 1, "reposts": 14 }
+    }
+  ]
+}
